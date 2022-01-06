@@ -1,0 +1,64 @@
+body {
+    background-color: #222222;
+}
+
+h1 {
+    text-align: center;
+}
+
+#game_board {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.crystal {
+    margin: 40px;
+    width: 105px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../asset/crystal.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+/* .crystal:active {
+    filter: none !important;
+} */
+
+#purple, #yellow {
+    align-self: flex-end;
+}
+
+#green, #blue {
+    align-self: center;
+}
+
+#purple {
+    filter: invert(12%) sepia(7%) saturate(2940%) hue-rotate(230deg) brightness(72%) contrast(287%);
+}
+
+#green {
+    filter: invert(16%) sepia(12%) saturate(1860%) hue-rotate(424deg) brightness(78%) contrast(140%);
+}
+
+#red {
+    filter: invert(7%) sepia(6%) saturate(4620%) hue-rotate(309deg) brightness(73%) contrast(397%);
+}
+
+#blue {
+    filter: invert(11%) sepia(35%) saturate(3835%) hue-rotate(183deg) brightness(88%) contrast(245%);
+}
+
+#yellow {
+    filter: invert(3%) sepia(8%) saturate(2607%) hue-rotate(355deg) brightness(86%) contrast(177%);
+}
+
+
+button, #level {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
