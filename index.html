@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Poiret+One&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet", href="css/style.css">
     <script defer src="js/script.js"></script>
 </head>
 <body>
     <h1>Simon</h1>
-    <div id="level">level:<span id="level_num"></span></div>
+    <div id="level">LEVEL <span id="level_num"></span></div>
     <div id="game_board">
-        <div class="crystal" id="purple"></div>
-        <div class="crystal" id="green"></div>
-        <div class="crystal" id="red"></div>
-        <div class="crystal" id="blue"></div>
-        <div class="crystal" id="yellow"></div>
+        <div class="crystal" id="purple"><audio src="asset/purple.wav"></div>
+        <div class="crystal" id="green"><audio src="asset/green.wav"></div>
+        <div class="crystal" id="red"><audio src="asset/red.wav"></div>
+        <div class="crystal" id="blue"><audio src="asset/blue.wav"></div>
+        <div class="crystal" id="yellow"><audio src="asset/yellow.wav"></div>
     </div>
     <div id="message"></div>
-    <button>start</button>
-    
+    <button>START</button>
+    <audio id="win" src="asset/win.wav">
+    <audio id="lose" src="asset/lose.wav">
 </body>
 </html>
