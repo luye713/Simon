@@ -5,7 +5,7 @@ Simon is a retro, classic game gained popularirty in the 1980s. It is a memory g
 
 ## Features
 * A completely new design from the original game
-* Five colored crystals that lights up with different tones
+* Five crystals that light up with random sequence each level
 * Total of 10 levels to win
 * A start button to play the game
 * Reset the game automatically when losing
@@ -18,3 +18,9 @@ CSS
 HTML
 
 ## To Play
+https://luye713.github.io/Simon/
+
+## Next Steps
+* Add a highest score section
+* Add a reset button
+* Able to choose from 'easy', 'medium', 'hard' mode.
