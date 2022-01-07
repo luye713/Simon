@@ -14,6 +14,7 @@ Simon is a retro, classic game that gained popularity in the 1980s. It is a memo
 * Total of 10 levels to win
 * A start button to play the game
 * Reset the game automatically when losing
+* Mobile friendly
 
 ## Technologies Used
 * JavaScript
