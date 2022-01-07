@@ -63,7 +63,7 @@ function lightCrystal() {
             setTimeout(function() {
                 activeCrystal.style.opacity = "0.6";
                 activeCrystal.style.transform = "scale(1)";
-            },300);
+            }, 200);
 
         }, (idx+1) * 1000 + 500);
     });
@@ -86,7 +86,7 @@ function handleCrystalClick(evt) {
     setTimeout(function(){
         evt.target.style.opacity = "0.6";
         evt.target.style.transform = "scale(1)";
-    }, 300);
+    }, 100);
     
     playerPat.forEach(checkPlayerPat);
 }
